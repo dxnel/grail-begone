@@ -1,13 +1,14 @@
-.select2-container--default .select2-selection--multiple .select2-selection__choice {
-    border: 0px;
-    
-}
+html {
+    scroll-behavior: smooth;
+  }
+  
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
     border:0px;
 }
-.select2 select2-container select2-container--default select2-container--below{
+.select2-container.select2-container--default.select2-container--below {
     width: 100%;
 }
+
 .select2-container {
     display: inline;
 }
@@ -20,14 +21,14 @@
 
 body{
     font-family: "Noto Sans Mono", monospace !important;
-    background-color: rgb(26, 29, 34) !important;
+    background-color: rgb(9, 9, 10) !important;
 }
 
 .btn-primary {
     --bs-btn-color: #fff;
-    --bs-btn-bg: rgb(61, 75, 99) !important;
+    --bs-btn-bg: rgb(14 15 18) !important;
     --bs-btn-hover-color: #fff;
-    --bs-btn-hover-bg: rgb(59, 71, 90) !important;
+    --bs-btn-hover-bg: rgb(21, 22, 27) !important;
     --bs-btn-hover-border-color: none !important;
     --bs-btn-focus-shadow-rgb: 49,132,253;
     --bs-btn-active-color: #fff;
@@ -40,12 +41,13 @@ body{
     width: 100%;
 }
 .btn-primary {
-border: 0px !important;
+    border-color: #1f2327 !important;
+
 }
 .btn-primary.focus, .btn-primary:focus {
 
     background-color: rgb(79, 98, 129) !important;
-    border: 0px;
+    border-color: #1f2327 !important;
     box-shadow: none !important;
 
 }
@@ -74,7 +76,7 @@ border: 0px !important;
 }
 .btn-secondary.focus, .btn-secondary:focus {
 
-    background-color: #dada55 !important;
+    background-color: #f7f771 !important;
     border: 0px;
     box-shadow: none !important;
 
@@ -117,7 +119,7 @@ border: 0px !important;
 }
 
 .card{
-    background-color: rgb(44 49 59) !important;
+    background-color: rgb(10 11 12) !important;
 }
 
 .card {
@@ -146,7 +148,6 @@ p{
 
 .select2-container--default .select2-selection--multiple{
 
-    border: none !important;
     border-radius: 5px !important;
 }
 
@@ -154,10 +155,7 @@ p{
     min-height: 38px !important;
 }
 
-.select2-container--default.select2-container--focus .select2-selection--multiple {
-    border: none !important;
-    background-color: rgb(44 49 59) !important;
-}
+
 
 .select2-container .select2-search--inline .select2-search__field {
 
@@ -185,8 +183,8 @@ p{
 
 .form-control {
 
-    background-color: rgb(44 49 59) !important;
-    border: none !important;
+    background-color: rgb(14 15 18) !important;
+    border-color: #1f2327 !important;
     box-shadow: none;
     color: #cbe0f5 !important;
     font-size: 13px !important;
@@ -196,7 +194,7 @@ p{
 
 .form-control:focus {
 
-    border: none !important;
+    border-color: #1f2327 !important;
     box-shadow: none !important;
     color: white !important;
 
@@ -217,13 +215,13 @@ p{
 
 .select2-dropdown {
 
-background-color:  rgb(44 49 59) !important;
+background-color:  rgb(14, 15, 18) !important;
 border: none !important;
 
 }
 
 .select2-container--default .select2-results__option--highlighted.select2-results__option--selectable {
-    background-color:rgb(63, 75, 100) !important;
+    background-color:rgb(24 27 35) !important;
     color: white !important;
 }
 
@@ -233,7 +231,10 @@ border: none !important;
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice {
 
-    background-color: rgb(61, 75, 99) !important;
+    background-color: rgb(28 33 43) !important;
+    border: 0px !important;
+    display: inline-block !important;
+    display:-webkit-inline-box;
 }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice__remove {
@@ -260,7 +261,7 @@ border: none !important;
 }
 
 .select2-container--default .select2-results__option--selected {
-    background-color: rgb(78, 102, 145) !important;
+    background-color: rgb(31, 35, 46) !important;
 }
 
 .select2-results__options::-webkit-scrollbar {
@@ -318,6 +319,42 @@ border: none !important;
     display: none;
   }
 
+  body::-webkit-scrollbar {
+    width: 5px;
+    background-clip: padding-box;
+    padding: 2px !important;
+    margin: 10px !important;
+    padding-top: 10px !important;
+  }
+  body::-webkit-scrollbar-track {
+    background-color: #1f2429;
+    height: 8px !important;
+    background-clip: padding-box;
+    border-right: 10px solid rgba(0, 0, 0, 0);
+    border-top: 10px solid rgba(0, 0, 0, 0);
+    border-bottom: 10px solid rgba(0, 0, 0, 0);
+    border-radius: 10px;
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-clip: padding-box;
+    background-color: #191e24;
+    border-radius: 5px;
+    margin: 5px;
+    margin-top: 10px !important;
+  }
+
+  body::-webkit-scrollbar-thumb:hover {
+    background-clip: padding-box;
+    background-color: #161a20;
+    border-radius: 5px;
+    margin: 5px;
+  }
+  
+  body::-webkit-scrollbar-button {
+    display: none;
+  }
+
   .svg-genius {
     height: 13px !important;
     margin-top: -4px !important;
@@ -333,6 +370,7 @@ border: none !important;
 
 body {
     font-size: 13px !important;
+    overflow: auto !important
 }
 
 .badge {
@@ -351,7 +389,7 @@ body {
 
 .col-md-7 {
     flex: 0 0 auto;
-    width: 74.9% !important;
+    width: 100% !important;
 }
 
 .select2-results__option--selectable {
@@ -359,6 +397,7 @@ body {
     border-radius: 5px;
     margin-left: 5px;
 }
+
 
 @media (min-width: 576px) {
     .col-md-4 {
@@ -390,10 +429,6 @@ body {
     }
 }
 
-.mb-3 {
-    margin-bottom: 1rem!important;
-    margin-top: 1rem !important;
-}
 
 .select2-container--default .select2-selection--multiple .select2-selection__clear{
     cursor: pointer;
@@ -409,8 +444,107 @@ body {
 }
 
 .select2-container .select2-selection--multiple .select2-selection__clear {
-    background-color: rgb(26, 29, 34) !important;
+    background-color: rgb(9 9 10) !important;
     border: none;
     font-size: 1em;
     color:white !important
 }
+
+.col-md-3 {
+    flex: 0 0 auto;
+    width: 100% !important;
+}
+
+.header {
+    background-color: rgb(17, 19, 22);
+    padding: 30px;
+    text-align: center;
+  }
+
+.row{
+    width: 100%;
+    margin-bottom: 25px !important;
+    margin-top: 25px !important;
+    margin-left: 0px !important;
+}
+
+#navbar-expand-lg>.container, .navbar-expand-lg>.container-fluid, .navbar-expand-lg>.container-lg, .navbar-expand-lg>.container-md, .navbar-expand-lg>.container-sm, .navbar-expand-lg>.container-xl {
+    padding-right: 0px !important;
+    padding-left:  0px !important;
+    transition: all 0.35s ease !important;
+    top:0 !important
+}
+
+#navbar{
+    margin-bottom: 25px !important;
+    background-color:  rgb(9, 9, 10)   !important;
+    transition: all 0.35s ease !important;
+    top:0 !important
+}
+
+#navbar.navbar-fixed-top {
+    transition: all 0.35s ease !important;
+    top:0 !important
+}
+
+.mb-3 {
+    margin-bottom: none !important;
+}
+
+.bg-light {
+    --bs-bg-opacity: 1;
+    background-color: rgba(var(--bs-light-rgb),var(--bs-bg-opacity))!important;
+}
+
+:root{
+
+    --bs-light-rgb: 26, 29, 34 !important;
+
+}
+
+.sticky {
+    position: fixed;
+    top: 0;
+    width: 100%;
+    z-index: 100;
+  }
+
+h2{
+    color: white !important;
+    font-weight: bold !important;
+}
+
+.select2-results__option {
+    margin-top: 10px !important;}
+
+.select2-selection__rendered {
+        white-space: nowrap !important;
+        overflow: hidden !important;
+        text-overflow: ellipsis !important;
+    }
+
+.select2-container--default .select2-selection--multiple .select2-selection__choice.total-tag {
+        max-width: 100px; /* Ajustez la largeur maximale selon vos besoins */
+        white-space: nowrap; /* Empêche le texte de passer à la ligne */
+        overflow: hidden; /* Cache le texte qui déborde */
+        text-overflow: ellipsis; /* Affiche une ellipse (...) pour indiquer un texte coupé */
+    }
+    
+    
+.select2-container--default .select2-selection--multiple {
+        background-color: rgb(14, 15, 18) !important;
+        border-color: #1f2327 !important;
+
+    }
+
+    @media (max-width: 576px) {
+        .form-control {
+            margin-bottom: 0!important;
+        }
+    }
+
+    @media (min-width: 576px) {
+        .form-control {
+            margin-bottom: 1rem!important;
+        }
+    }

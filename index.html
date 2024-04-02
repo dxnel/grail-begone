@@ -10,18 +10,29 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Noto+Sans+Mono:wght@100..900&display=swap" rel="stylesheet">
+
 </head>
 <body>
-  <div class="container">
-    <div class="row mb-3">
-      <div class="col-md-3" id="scol"> <!-- Modifier la classe col-md-6 en col-md-4 pour la barre de recherche -->
-        <input type="text" id="searchInput" class="form-control" placeholder="Search...">
-      </div>
-      <div class="col-md-7" id="tcol"> <!-- Modifier la classe col-md-6 en col-md-8 pour le filtre -->
-        <select id="artistSelect" class="selectpicker" multiple>
-        </select>
+  <div class="header">
+    <h2>GRAIL BEGONE</h2>
+    <p style="color: #f3c493">Unreleased Music. Easier.</p>
+  </div>
+  <!-- Navbar sticky -->
+  <div id="navbar">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-3" id="scol">
+          <input type="text" id="searchInput" class="form-control" placeholder="Search...">
+        </div>
+        <div class="col-md-3 d-none d-sm-block" id="tcol">
+          <select id="artistSelect" class="selectpicker" multiple>
+          </select>
+        </div>
       </div>
     </div>
+  </div>
+
+  <div class="container">
     <div id="morceaux-container" class="row"></div>
   </div>
   
