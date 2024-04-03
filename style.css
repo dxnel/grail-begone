@@ -46,7 +46,7 @@ body{
 }
 .btn-primary.focus, .btn-primary:focus {
 
-    background-color: rgb(79, 98, 129) !important;
+    background-color: rgb(29, 31, 39) !important;
     border-color: #1f2327 !important;
     box-shadow: none !important;
 
@@ -541,10 +541,16 @@ h2{
         .form-control {
             margin-bottom: 0!important;
         }
+
+        .col-md-4 {
+            width: 50% !important; /* Pour les écrans de taille >= 576px */
+        }
     }
 
     @media (min-width: 576px) {
         .form-control {
             margin-bottom: 1rem!important;
         }
+
+
     }

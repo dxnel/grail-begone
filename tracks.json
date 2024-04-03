@@ -99,6 +99,45 @@
 		"genius_link": "https://genius.com/Kanye-west-spread-your-wings-lyrics"
 	},
 	{
+		"artist": "Kanye West",
+		"track": "530",
+		"album": "Donda 2 (unreleased)",
+		"date": "2022",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
+		"link": "https://pillowcase.su/f/96108f787409ee5f1a784247302981d9",
+		"genius_link": "https://genius.com/Kanye-west-530-lyrics"
+	},
+	{
+		"artist": "Kanye West",
+		"track": "Donda 2 [Stem Player Edition]",
+		"album": "Donda 2 (unreleased)",
+		"date": "2022",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
+		"link": "https://pillowcase.su/f/b28e958ee69e0da5facec1e2e3903fc8",
+		"genius_link": "https://genius.com/albums/Kanye-west/Donda-2",
+		"extra": "Full Album"
+	},
+	{
+		"artist": "Kanye West",
+		"track": "Donda 2 [21.03.22 Edition]",
+		"album": "Donda 2 (unreleased)",
+		"date": "2022",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
+		"link": "https://pillowcase.su/f/917a46edce33cf45b56af613ef334285",
+		"genius_link": "https://genius.com/albums/Kanye-west/Donda-2",
+		"extra": "Full Album"
+	},
+	{
+		"artist": "Kanye West, Kaycyy & Sunday Service Choir",
+		"track": "24 [OG Version]",
+		"album": "Donda [OG]",
+		"date": "2020",
+		"cover": "https://i.postimg.cc/jjp9r1Vt/maxresdefault-1-1.jpg",
+		"link": "https://small.fileditchstuff.me/s5/VbaWIVFUxCvvtDxZFuii.mp4",
+		"genius_link": "https://genius.com/Kanye-west-24-las-vegas-version-lyrics",
+		"extra": "Music Video"
+	},
+	{
 		"artist": "Kanye West & A$AP Rocky",
 		"track": "Euro",
 		"album": "TurboGrafx16 (unreleased)",
@@ -144,6 +183,15 @@
 		"genius_link": "https://genius.com/Kanye-west-last-name-lyrics"
 	},
 	{
+		"artist": "Kanye West & Don Toliver",
+		"track": "Broken Road",
+		"album": "Donda 2 (unreleased)",
+		"date": "2022",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
+		"link": "https://pillowcase.su/f/aacdc402135a7ef6af12077cc50c258a",
+		"genius_link": "https://genius.com/Kanye-west-broken-road-lyrics"
+	},
+	{
 		"artist": "Kanye West & Future",
 		"track": "Maintenance",
 		"album": "Donda 2 (unreleased)",
@@ -160,24 +208,6 @@
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/b37758646ce038c57cba9a859902657c",
 		"genius_link": "https://genius.com/Kanye-west-happy-lyrics"
-	},
-	{
-		"artist": "Kanye West",
-		"track": "530",
-		"album": "Donda 2 (unreleased)",
-		"date": "2022",
-		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
-		"link": "https://pillowcase.su/f/96108f787409ee5f1a784247302981d9",
-		"genius_link": "https://genius.com/Kanye-west-530-lyrics"
-	},
-	{
-		"artist": "Kanye West & Don Toliver",
-		"track": "Broken Road",
-		"album": "Donda 2 (unreleased)",
-		"date": "2022",
-		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
-		"link": "https://pillowcase.su/f/aacdc402135a7ef6af12077cc50c258a",
-		"genius_link": "https://genius.com/Kanye-west-broken-road-lyrics"
 	},
 	{
 		"artist": "Kanye West & Jack Harlow",
@@ -199,7 +229,7 @@
 	},
 	{
 		"artist": "Kanye West & Pusha T",
-		"track": "DONDA [LP 2 Version]",
+		"track": "Donda [LP 2 Version]",
 		"album": "Donda",
 		"date": "2021",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/a/a0/Almost_black_square_020305.png",
@@ -307,7 +337,7 @@
 	},
 	{
 		"artist": "Kanye West, Kaycyy & SAINt JHN",
-		"track": "24 [OG Version]",
+		"track": "24 [SAInt JHN Version]",
 		"album": "Donda [OG]",
 		"date": "2020",
 		"cover": "https://m.media-amazon.com/images/I/81M8FFwTgaL.jpg",
