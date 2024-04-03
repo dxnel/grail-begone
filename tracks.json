@@ -55,6 +55,26 @@
 	},
 	{
 		"artist": "Kanye West",
+		"track": "Donda 2 [Stem Player Edition]",
+		"album": "Full Album",
+		"date": "2022",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
+		"link": "https://pillowcase.su/f/b28e958ee69e0da5facec1e2e3903fc8",
+		"genius_link": "https://genius.com/albums/Kanye-west/Donda-2",
+		"extra": "Full Album"
+	},
+	{
+		"artist": "Kanye West",
+		"track": "Donda 2 [21.03.22 Edition]",
+		"album": "Full Album",
+		"date": "2022",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
+		"link": "https://pillowcase.su/f/917a46edce33cf45b56af613ef334285",
+		"genius_link": "https://genius.com/albums/Kanye-west/Donda-2",
+		"extra": "Full Album"
+	},
+	{
+		"artist": "Kanye West",
 		"track": "Get Lost",
 		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
