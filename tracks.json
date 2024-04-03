@@ -5,8 +5,17 @@
 		"album": "DON'T BE DUMB (Unreleased)",
 		"date": "2022",
 		"cover": "https://i.kfs.io/artist/global/240309,0v17/fit/500x500.jpg",
-		"link": "https://pillowcase.su/f/000333bff7fe0cb032b8af1862a24e1e",
+		"link": "https://pillowcase.su/f/5d5671577a6a30065759b0edd45d951a",
 		"genius_link": "https://genius.com/A-ap-rocky-and-playboi-carti-sights-lyrics"
+	},
+	{
+		"artist": "Daniel Caesar",
+		"track": "Horsepower",
+		"album": "Horsepower (Single)",
+		"date": "2022",
+		"cover": "https://images.genius.com/f4522b455a85f60f4952a5872957e998.500x500x1.jpg",
+		"link": "https://pillowcase.su/f/b77f7acc7b166c9a7da1314e51fca563",
+		"genius_link": "https://genius.com/Daniel-caesar-horsepower-lyrics"
 	},
 	{
 		"artist": "James Blake",
@@ -38,7 +47,7 @@
 	{
 		"artist": "Kanye West",
 		"track": "Love Me",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/f50ad8beb7ac01d3ff511871b97e722d",
@@ -47,7 +56,7 @@
 	{
 		"artist": "Kanye West",
 		"track": "Get Lost",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/956c7768b645cd9cf7066a8309743625",
@@ -56,7 +65,7 @@
 	{
 		"artist": "Kanye West",
 		"track": "God Level",
-		"album": "So Help Me God (unreleased)",
+		"album": "So Help Me God",
 		"date": "2015",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/ar0/c314f396b78647bdc7684dd3ec2a4a00.jpg",
 		"link": "https://pillowcase.su/f/c9b5b94d712f53df40db33cfdb819ce4",
@@ -64,8 +73,27 @@
 	},
 	{
 		"artist": "Kanye West",
+		"track": "I Feel Like That",
+		"album": "So Help Me God (Unreleased)",
+		"date": "2015",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/ar0/c314f396b78647bdc7684dd3ec2a4a00.jpg",
+		"link": "https://pillowcase.su/f/77ec1a74cf31ecc09a751147f01bf219",
+		"genius_link": "https://genius.com/Kanye-west-i-feel-like-that-lyrics"
+	},
+	{
+		"artist": "Kanye West",
+		"track": "All Day / I Feel Like That",
+		"album": "So Help Me God (Unreleased)",
+		"date": "2015",
+		"cover": "https://images.genius.com/33741dec25ba7615786741411e86428b.1000x1000x1.jpg",
+		"link": "https://pillowcase.su/f/8469fb6716d486a2f02d1bee373dc6b0",
+		"genius_link": "https://genius.com/Kanye-west-all-day-lyrics",
+		"extra": "Music Video"
+	},
+	{
+		"artist": "Kanye West",
 		"track": "Awesome",
-		"album": "Yeezus II (unreleased)",
+		"album": "Yeezus II",
 		"date": "2014",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/ar0/038a439fa151728291f98cc59d8ee7d2.jpg",
 		"link": "https://pillowcase.su/f/e8c30884922f733dbdac919f64c439b0",
@@ -92,55 +120,16 @@
 	{
 		"artist": "Kanye West",
 		"track": "Spread Your Wings",
-		"album": "Yandhi [2019] (unreleased)",
+		"album": "Yandhi [2019] (Unreleased)",
 		"date": "2019",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/c896f367116581146f59212c1f4356f1",
 		"genius_link": "https://genius.com/Kanye-west-spread-your-wings-lyrics"
 	},
 	{
-		"artist": "Kanye West",
-		"track": "530",
-		"album": "Donda 2 (unreleased)",
-		"date": "2022",
-		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
-		"link": "https://pillowcase.su/f/96108f787409ee5f1a784247302981d9",
-		"genius_link": "https://genius.com/Kanye-west-530-lyrics"
-	},
-	{
-		"artist": "Kanye West",
-		"track": "Donda 2 [Stem Player Edition]",
-		"album": "Donda 2 (unreleased)",
-		"date": "2022",
-		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
-		"link": "https://pillowcase.su/f/b28e958ee69e0da5facec1e2e3903fc8",
-		"genius_link": "https://genius.com/albums/Kanye-west/Donda-2",
-		"extra": "Full Album"
-	},
-	{
-		"artist": "Kanye West",
-		"track": "Donda 2 [21.03.22 Edition]",
-		"album": "Donda 2 (unreleased)",
-		"date": "2022",
-		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
-		"link": "https://pillowcase.su/f/917a46edce33cf45b56af613ef334285",
-		"genius_link": "https://genius.com/albums/Kanye-west/Donda-2",
-		"extra": "Full Album"
-	},
-	{
-		"artist": "Kanye West, Kaycyy & Sunday Service Choir",
-		"track": "24 [OG Version]",
-		"album": "Donda [OG]",
-		"date": "2020",
-		"cover": "https://i.postimg.cc/jjp9r1Vt/maxresdefault-1-1.jpg",
-		"link": "https://small.fileditchstuff.me/s5/VbaWIVFUxCvvtDxZFuii.mp4",
-		"genius_link": "https://genius.com/Kanye-west-24-las-vegas-version-lyrics",
-		"extra": "Music Video"
-	},
-	{
 		"artist": "Kanye West & A$AP Rocky",
 		"track": "Euro",
-		"album": "TurboGrafx16 (unreleased)",
+		"album": "TurboGrafx16 (Unreleased)",
 		"date": "2017",
 		"cover": "https://i.redd.it/y3e3wp9nhye41.png",
 		"link": "https://pillowcase.su/f/2935e9d6f7b5aa99ba38910ac357a3c8",
@@ -167,7 +156,7 @@
 	{
 		"artist": "Kanye West & Ant Clemons",
 		"track": "Law Of Attraction",
-		"album": "Yandhi [2019] (unreleased)",
+		"album": "Yandhi [2019] (Unreleased)",
 		"date": "2019",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/8e1552a02727868ebdaa64e11b4e8ce3",
@@ -176,25 +165,16 @@
 	{
 		"artist": "Kanye West & Ant Clemons",
 		"track": "Last Name",
-		"album": "Yandhi [2018] (unreleased)",
+		"album": "Yandhi [2018] (Unreleased)",
 		"date": "2018",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/b87584e3ff0fd58878a71da803633954",
 		"genius_link": "https://genius.com/Kanye-west-last-name-lyrics"
 	},
 	{
-		"artist": "Kanye West & Don Toliver",
-		"track": "Broken Road",
-		"album": "Donda 2 (unreleased)",
-		"date": "2022",
-		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
-		"link": "https://pillowcase.su/f/aacdc402135a7ef6af12077cc50c258a",
-		"genius_link": "https://genius.com/Kanye-west-broken-road-lyrics"
-	},
-	{
 		"artist": "Kanye West & Future",
 		"track": "Maintenance",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/4f08409ab3b48cdb88fa29ff674cc65e",
@@ -203,7 +183,7 @@
 	{
 		"artist": "Kanye West & Future",
 		"track": "Happy",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/b37758646ce038c57cba9a859902657c",
@@ -212,7 +192,7 @@
 	{
 		"artist": "Kanye West & Jack Harlow",
 		"track": "Louie Bags",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/5e5e2129c09aac0a05696142d9fcb336",
@@ -239,7 +219,7 @@
 	{
 		"artist": "Kanye West & The-Dream",
 		"track": "Chakras",
-		"album": "Yandhi [2018] (unreleased)",
+		"album": "Yandhi [2018] (Unreleased)",
 		"date": "2018",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/6558efec5a9a0d5205b8e3acdaac44fa",
@@ -264,9 +244,18 @@
 		"genius_link": "https://genius.com/Kanye-west-gods-country-original-lyrics"
 	},
 	{
+		"artist": "Kanye West & Travis Scott",
+		"track": "FML",
+		"album": "SWISH (Unreleased)",
+		"date": "2016",
+		"cover": "https://i.redd.it/2hlta6mmw1ma1.jpg",
+		"link": "https://pillowcase.su/f/499333cebe7f5c27c63b8828010d9f00",
+		"genius_link": "https://genius.com/Kanye-west-fml-original-demo-lyrics"
+	},
+	{
 		"artist": "Kanye West & Ty Dolla $ign",
 		"track": "I Feel Like That [Ty Dolla $ign Version]",
-		"album": "SWISH (unreleased)",
+		"album": "SWISH (Unreleased)",
 		"date": "2016",
 		"cover": "https://i.redd.it/2hlta6mmw1ma1.jpg",
 		"link": "https://pillowcase.su/f/910614072d2c57be77687d95a2a292e8",
@@ -293,7 +282,7 @@
 	{
 		"artist": "Kanye West & Vory",
 		"track": "Lord Lift Me Up",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/74f6c68dbf24083080ee011e54773a80",
@@ -302,7 +291,7 @@
 	{
 		"artist": "Kanye West, Baby Keem, Quavo & Offset",
 		"track": "We Did It Kid",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/78f2f0fdd6e5f7dd9224c7d1c7512990",
@@ -311,7 +300,7 @@
 	{
 		"artist": "Kanye West, Future & Playboi Carti",
 		"track": "Mr. Miyagi",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/da16a16f17a5af7e238d079baf066d3b",
@@ -345,6 +334,16 @@
 		"genius_link": "https://genius.com/Kanye-west-24-buju-banton-and-saint-jhn-demo-lyrics"
 	},
 	{
+		"artist": "Kanye West, Kaycyy & Sunday Service Choir",
+		"track": "24 [OG Version]",
+		"album": "Donda [OG]",
+		"date": "2020",
+		"cover": "https://i.postimg.cc/jjp9r1Vt/maxresdefault-1-1.jpg",
+		"link": "https://small.fileditchstuff.me/s5/VbaWIVFUxCvvtDxZFuii.mp4",
+		"genius_link": "https://genius.com/Kanye-west-24-las-vegas-version-lyrics",
+		"extra": "Music Video"
+	},
+	{
 		"artist": "Kanye West, Kid Cudi & Ant Clemons",
 		"track": "Alien",
 		"album": "Donda [OG]",
@@ -363,9 +362,18 @@
 		"genius_link": "https://genius.com/Kanye-west-crash-landing-lyrics"
 	},
 	{
+		"artist": "Kanye West, Theophilus London, Allan Kingdom & Kendrick Lamar",
+		"track": "All Day [Demo]",
+		"album": "So Help Me God (Unreleased)",
+		"date": "2015",
+		"cover": "https://lastfm.freetls.fastly.net/i/u/ar0/c314f396b78647bdc7684dd3ec2a4a00.jpg",
+		"link": "https://pillowcase.su/f/1f8d8cead0919a5c3dbd5ebe6d25dced",
+		"genius_link": "https://genius.com/Kanye-west-all-day-kendrick-lamar-reference-lyrics"
+	},
+	{
 		"artist": "Kanye West, Travis Scott & Future",
 		"track": "Pablo",
-		"album": "Donda 2 (unreleased)",
+		"album": "Donda 2 (Unreleased)",
 		"date": "2022",
 		"cover": "https://lastfm.freetls.fastly.net/i/u/770x0/226f5e5bbbaa29444ac733e68c8adc02.jpg",
 		"link": "https://pillowcase.su/f/3efa3c47dc951a330785f5221ffe7983",
@@ -374,7 +382,7 @@
 	{
 		"artist": "Kanye West, Ty Dolla $ign & 070 Shake",
 		"track": "Sky City",
-		"album": "Yandhi [2019] (unreleased)",
+		"album": "Yandhi [2019] (Unreleased)",
 		"date": "2019",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/fd133187fd6aec662d05dfe6aae98877",
@@ -383,7 +391,7 @@
 	{
 		"artist": "Kanye West, Ty Dolla $ign & XXXTentacion",
 		"track": "The Storm",
-		"album": "Yandhi [2018] (unreleased)",
+		"album": "Yandhi [2018] (Unreleased)",
 		"date": "2018",
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/22d5955135780cbdbfbb7692e9bf0cd4",
@@ -435,9 +443,18 @@
 		"genius_link": "https://genius.com/Lil-uzi-vert-sauce-lyrics"
 	},
 	{
+		"artist": "Lil Uzi Vert & Travis Scott",
+		"track": "Aye [First Edition Version]",
+		"album": "UTOPIA [First Edition]",
+		"date": "2023",
+		"cover": "https://images.genius.com/0ba2a1fe4503faac8e3f751ba130fe32.1000x1000x1.jpg",
+		"link": "https://drive.google.com/drive/folders/1ATsWCyRiCBLC3grLtY-kEknWfDHUms_C",
+		"genius_link": "https://genius.com/Lil-uzi-vert-aye-first-edition-version-lyrics"
+	},
+	{
 		"artist": "Playboi Carti",
 		"track": "KETAMINE",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2024",
 		"cover": "https://images.genius.com/38b9bfc85e5ff84aee51e4700d248c34.1000x1000x1.png",
 		"link": "https://pillowcase.su/f/1e84902a8da2f0eed3a567c398172be4",
@@ -446,7 +463,7 @@
 	{
 		"artist": "Playboi Carti",
 		"track": "2024",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2024",
 		"cover": "https://images.genius.com/38b9bfc85e5ff84aee51e4700d248c34.1000x1000x1.png",
 		"link": "https://pillowcase.su/f/7a432addda7af4c8f4b4f44d475b4acb",
@@ -455,7 +472,7 @@
 	{
 		"artist": "Playboi Carti",
 		"track": "H00DBYAIR",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2024",
 		"cover": "https://images.genius.com/38b9bfc85e5ff84aee51e4700d248c34.1000x1000x1.png",
 		"link": "https://pillowcase.su/f/0b4a60db7e9c64ead71ac5a5631ec326",
@@ -464,7 +481,7 @@
 	{
 		"artist": "Playboi Carti",
 		"track": "DIFFERENT DAY",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2024",
 		"cover": "https://images.genius.com/38b9bfc85e5ff84aee51e4700d248c34.1000x1000x1.png",
 		"link": "https://pillowcase.su/f/f2c4a1419a4263a963875b21ebc28a1f",
@@ -473,7 +490,7 @@
 	{
 		"artist": "Playboi Carti",
 		"track": "EVILJ0RDAN",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2024",
 		"cover": "https://images.genius.com/38b9bfc85e5ff84aee51e4700d248c34.1000x1000x1.png",
 		"link": "https://pillowcase.su/f/6f8cc839b8ada74a49936b56c6dda150",
@@ -482,7 +499,7 @@
 	{
 		"artist": "Playboi Carti",
 		"track": "Medusa (Goin’ Outta Style)",
-		"album": "Narcissist Era (unreleased)",
+		"album": "Narcissist Era (Unreleased)",
 		"date": "2021",
 		"cover": "https://i1.sndcdn.com/artworks-w6yymCA5P0gdPx7y-Cj4uUg-t500x500.jpg",
 		"link": "https://pillowcase.su/f/9d52dfb84e253105ec8f1fcc7f2d1610",
@@ -491,7 +508,7 @@
 	{
 		"artist": "Playboi Carti",
 		"track": "Wicked (Killers)",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2023",
 		"cover": "https://images.genius.com/5f53a00234f078a0262fb4c9579e22fb.898x898x1.png",
 		"link": "https://pillowcase.su/f/000333bff7fe0cb032b8af1862a24e1e",
@@ -527,7 +544,7 @@
 	{
 		"artist": "Playboi Carti & Travis Scott",
 		"track": "BACKR00MS",
-		"album": "Music (unreleased)",
+		"album": "Music (Unreleased)",
 		"date": "2024",
 		"cover": "https://images.genius.com/38b9bfc85e5ff84aee51e4700d248c34.1000x1000x1.png",
 		"link": "https://pillowcase.su/f/da4d21e988933d2a96bbe260b1b7fe9b",
@@ -536,11 +553,94 @@
 	{
 		"artist": "Playboi Carti & Vory",
 		"track": "Made It This Far (24 Songs)",
-		"album": "Narcissist Era (unreleased)",
+		"album": "Narcissist Era (Unreleased)",
 		"date": "2021",
 		"cover": "https://i1.sndcdn.com/artworks-w6yymCA5P0gdPx7y-Cj4uUg-t500x500.jpg",
 		"link": "https://pillowcase.su/f/08b9c0d332a3a6f3d8a7394d6ebaf8dd",
 		"genius_link": "https://genius.com/Playboi-carti-made-it-this-far-lyrics"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "KNIFE",
+		"album": "Gully (Original Motion Picture Soundtrack)",
+		"date": "2021",
+		"cover": "https://is1-ssl.mzstatic.com/image/thumb/Music115/v4/05/49/82/05498206-c753-5a6c-fb60-635cfcd75241/886449353682.jpg/1200x1200bf-60.jpg",
+		"link": "https://krakenfiles.com/view/9qzIQS27vo/file.html",
+		"genius_link": "https://genius.com/Travis-scott-knife-lyrics"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "KNIFE",
+		"album": "Gully (Original Motion Picture Soundtrack)",
+		"date": "2021",
+		"cover": "https://i1.sndcdn.com/artworks-6aAJPJjzv0zT6ufh-FEwu3g-t500x500.jpg",
+		"link": "https://krakenfiles.com/view/9qzIQS27vo/file.html",
+		"genius_link": "https://genius.com/Travis-scott-knife-lyrics",
+		"extra": "Music Video"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "HEARTBEAT",
+		"album": "UTOPIA",
+		"date": "2021",
+		"cover": "https://miro.medium.com/v2/resize:fit:1024/0*NqXYLlT5jxlH6c-R.jpeg",
+		"link": "https://krakenfiles.com/view/UnZRFs5Nju/file.html",
+		"genius_link": "https://genius.com/Travis-scott-heartbeat-lyrics"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "The Curse",
+		"album": "Birds in the Trap Sing McKnight",
+		"date": "2016",
+		"cover": "https://media.pitchfork.com/photos/5929bc47abf31b7dc7155c9b/master/pass/2a8b2311.jpgg",
+		"link": "https://krakenfiles.com/view/jTwXTJQu46/file.html",
+		"genius_link": "https://genius.com/Travis-scott-the-curse-lyrics"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "Smoke Drink Pop / Sdp Interlude [Demo]",
+		"album": "Birds in the Trap Sing McKnight",
+		"date": "2016",
+		"cover": "https://media.pitchfork.com/photos/5929bc47abf31b7dc7155c9b/master/pass/2a8b2311.jpgg",
+		"link": "https://krakenfiles.com/view/X1X3njRIex/file.html",
+		"genius_link": "https://genius.com/Travis-scott-smoke-drink-pop-lyrics"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "UTOPIA [First Edition]",
+		"album": "UTOPIA",
+		"date": "2023",
+		"cover": "https://images.genius.com/0ba2a1fe4503faac8e3f751ba130fe32.1000x1000x1.jpg",
+		"link": "https://drive.google.com/drive/folders/1ATsWCyRiCBLC3grLtY-kEknWfDHUms_C",
+		"genius_link": "https://genius.com/albums/Travis-scott/Utopia-first-edition",
+		"extra": "Full Album"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "GF",
+		"album": "ASTROWORLD",
+		"date": "2018",
+		"cover": "https://townsquare.media/site/812/files/2018/07/travis-scott-astroworld-cover-art-full.jpg?w=1080&q=75",
+		"link": "https://krakenfiles.com/view/kX7hlh3Kc5/file.html",
+		"genius_link": "https://genius.com/Travis-scott-girlfriend-lyrics"
+	},
+	{
+		"artist": "Travis Scott",
+		"track": "Gold Blackberry",
+		"album": "JACKBOYS",
+		"date": "2019",
+		"cover": "https://m.media-amazon.com/images/I/81jqRIm2UtL._UF1000,1000_QL80_.jpg",
+		"link": "https://krakenfiles.com/view/dQLWLic3iy/file.html",
+		"genius_link": "https://genius.com/Travis-scott-gold-blackberry-lyrics"
+	},
+	{
+		"artist": "Travis Scott, Playboi Carti & Sheck Wes",
+		"track": "FE!N [First Edition Version]",
+		"album": "UTOPIA [First Edition]",
+		"date": "2023",
+		"cover": "https://images.genius.com/0ba2a1fe4503faac8e3f751ba130fe32.1000x1000x1.jpg",
+		"link": "https://drive.google.com/drive/folders/1ATsWCyRiCBLC3grLtY-kEknWfDHUms_C",
+		"genius_link": "https://genius.com/Travis-scott-fe-n-first-edition-version-lyrics"
 	},
 	{
 		"artist": "Young Nudy, Pi'erre Bourne & Playboi Carti",
