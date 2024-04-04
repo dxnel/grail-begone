@@ -192,6 +192,16 @@
 		"genius_link": "https://genius.com/Kanye-west-last-name-lyrics"
 	},
 	{
+		"artist": "Kanye West & Dr. Dre",
+		"track": "JESUS IS KING: The Dr. Dre Version",
+		"album": "JESUS IS KING: The Dr. Dre Version (Unreleased)",
+		"date": "2020",
+		"cover": "https://i.redd.it/8xrbtflvibqb1.jpg",
+		"link": "https://pillowcase.su/f/9b48bc6fc71750b9653e4a5a181e975e",
+		"genius_link": "https://genius.com/albums/Kanye-west-and-dr-dre/Jesus-is-king-the-dr-dre-version",
+		"extra": "Full Album"
+	},
+	{
 		"artist": "Kanye West & Future",
 		"track": "Maintenance",
 		"album": "Donda 2 (Unreleased)",
@@ -271,6 +281,15 @@
 		"cover": "https://i.redd.it/2hlta6mmw1ma1.jpg",
 		"link": "https://pillowcase.su/f/499333cebe7f5c27c63b8828010d9f00",
 		"genius_link": "https://genius.com/Kanye-west-fml-original-demo-lyrics"
+	},
+	{
+		"artist": "Kanye West & Ty Dolla $ign",
+		"track": "GOOD (DON'T DIE)",
+		"album": "VULTURES 1",
+		"date": "2024",
+		"cover": "https://media.pitchfork.com/photos/65d4c7ed9b78b184e131aff9/1:1/w_450%2Cc_limit/Kanye-West-Vultures-1.jpg",
+		"link": "https://pillowcase.su/f/a14bab72af29f145f2efe8e4151024e5",
+		"genius_link": "https://genius.com/Kanye-west-and-ty-dolla-sign-good-dont-die-lyrics"
 	},
 	{
 		"artist": "Kanye West & Ty Dolla $ign",
@@ -407,6 +426,25 @@
 		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
 		"link": "https://pillowcase.su/f/fd133187fd6aec662d05dfe6aae98877",
 		"genius_link": "https://genius.com/Kanye-west-sky-city-lyrics"
+	},
+	{
+		"artist": "Kanye West, Ty Dolla $ign & Nicki Minaj",
+		"track": "New Body",
+		"album": "Yandhi [2018] (Unreleased)",
+		"date": "2018",
+		"cover": "https://upload.wikimedia.org/wikipedia/commons/thumb/1/1d/Yandhi_Cover_Art_%28Free_License%29.jpg/1200px-Yandhi_Cover_Art_%28Free_License%29.jpg",
+		"link": "https://pillowcase.su/f/a14bab72af29f145f2efe8e4151024e5",
+		"genius_link": "https://genius.com/Kanye-west-and-ty-dolla-sign-new-body-lyrics"
+	},
+	{
+		"artist": "Kanye West, Ty Dolla $ign & Nicki Minaj",
+		"track": "New Body",
+		"album": "Yandhi [2018] (Unreleased)",
+		"date": "2018",
+		"cover": "https://pbs.twimg.com/media/F0epNZHX0AA5hhN.jpg",
+		"link": "https://pillowcase.su/f/fea3d6fa2fe83f938a31f061e5200e86",
+		"genius_link": "https://genius.com/Kanye-west-and-ty-dolla-sign-new-body-lyrics",
+		"extra": "Music Video"
 	},
 	{
 		"artist": "Kanye West, Ty Dolla $ign & XXXTentacion",
@@ -578,6 +616,15 @@
 		"cover": "https://i1.sndcdn.com/artworks-w6yymCA5P0gdPx7y-Cj4uUg-t500x500.jpg",
 		"link": "https://pillowcase.su/f/08b9c0d332a3a6f3d8a7394d6ebaf8dd",
 		"genius_link": "https://genius.com/Playboi-carti-made-it-this-far-lyrics"
+	},
+	{
+		"artist": "Roddy Rich & Travis Scott",
+		"track": "Big Champ",
+		"album": "LIVE LIFE FAST",
+		"date": "2021",
+		"cover": "https://media.pitchfork.com/photos/61a79dc614c6f0e2df9a323d/master/pass/Roddy-Ricch-Live-Life-Fast.jpeg",
+		"link": "https://pillowcase.su/f/ed32472288e74a76752be7eb3f4744ea",
+		"genius_link": "https://genius.com/Roddy-ricch-big-champ-lyrics"
 	},
 	{
 		"artist": "Travis Scott",
