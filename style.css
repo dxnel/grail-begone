@@ -554,3 +554,13 @@ h2{
 
 
     }
+
+    @media (max-width: 400px) {
+        .form-control {
+            margin-bottom: 0!important;
+        }
+
+        .col-md-4 {
+            width: 100% !important; /* Pour les écrans de taille >= 576px */
+        }
+    }
