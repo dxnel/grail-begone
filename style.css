@@ -105,16 +105,16 @@ border: 0px !important;
     color:white !important;
 }
 
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control::placeholder { 
     color: rgb(49, 57, 73);
-    opacity: 1; /* Firefox */
+    opacity: 1;
 }
 
-.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+.form-control:-ms-input-placeholder { 
     color: rgb(49, 57, 73);
 }
 
-.form-control::-ms-input-placeholder { /* Microsoft Edge */
+.form-control::-ms-input-placeholder { 
     color: rgb(49, 57, 73);
 }
 
@@ -200,16 +200,16 @@ p{
 
 }
 
-.form-control::placeholder { /* Chrome, Firefox, Opera, Safari 10.1+ */
+.form-control::placeholder { 
     color: #cbe0f5 !important;
-    opacity: 1; /* Firefox */
+    opacity: 1; 
 }
 
-.form-control:-ms-input-placeholder { /* Internet Explorer 10-11 */
+.form-control:-ms-input-placeholder { 
     color: #cbe0f5 !important;
 }
 
-.form-control::-ms-input-placeholder { /* Microsoft Edge */
+.form-control::-ms-input-placeholder { 
     color: #cbe0f5 !important;
 }
 
@@ -378,11 +378,11 @@ body {
     vertical-align: middle !important;
     border-radius: 2px !important;
     display: inline-block !important;
-    max-width: 100% !important; /* ou une valeur en pixels appropriée */
+    max-width: 100% !important; 
     word-wrap: break-word !important;
-    overflow: hidden !important; /* Empêche le texte de déborder du badge */
-    white-space: normal !important; /* Permet au texte de passer à la ligne si nécessaire */
-    text-align: left !important; /* Aligne le texte à gauche */
+    overflow: hidden !important; 
+    white-space: normal !important; 
+    text-align: left !important; 
     line-height: 1.2 !important; 
     padding: 3px !important;
 }
@@ -401,31 +401,31 @@ body {
 
 @media (min-width: 576px) {
     .col-md-4 {
-        width: 33.33333% !important; /* Pour les écrans de taille >= 576px */
+        width: 33.33333% !important; 
     }
 }
 
 @media (min-width: 768px) {
     .col-md-4 {
-        width: 25% !important; /* Pour les écrans de taille >= 768px */
+        width: 25% !important; 
     }
 }
 
 @media (min-width: 992px) {
     .col-md-4 {
-        width: 20% !important; /* Pour les écrans de taille >= 992px */
+        width: 20% !important; 
     }
 }
 
 @media (min-width: 1200px) {
     .col-md-4 {
-        width: 16.66667% !important; /* Pour les écrans de taille >= 1200px */
+        width: 16.66667% !important; 
     }
 }
 
 @media (min-width: 1400px) {
     .col-md-4 {
-        width: 14.285% !important; /* Pour les écrans de taille >= 1200px */
+        width: 14.285% !important; 
     }
 }
 
@@ -524,10 +524,10 @@ h2{
     }
 
 .select2-container--default .select2-selection--multiple .select2-selection__choice.total-tag {
-        max-width: 100px; /* Ajustez la largeur maximale selon vos besoins */
-        white-space: nowrap; /* Empêche le texte de passer à la ligne */
-        overflow: hidden; /* Cache le texte qui déborde */
-        text-overflow: ellipsis; /* Affiche une ellipse (...) pour indiquer un texte coupé */
+        max-width: 100px; 
+        white-space: nowrap; 
+        overflow: hidden; 
+        text-overflow: ellipsis; 
     }
     
     
@@ -543,7 +543,7 @@ h2{
         }
 
         .col-md-4 {
-            width: 50% !important; /* Pour les écrans de taille >= 576px */
+            width: 50% !important; 
         }
     }
 
@@ -561,6 +561,6 @@ h2{
         }
 
         .col-md-4 {
-            width: 100% !important; /* Pour les écrans de taille >= 576px */
+            width: 100% !important; 
         }
     }
