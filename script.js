@@ -1,68 +1,64 @@
-/* Fonction pour générer une couleur aléatoire */
 function couleurAleatoire() {
-    var couleursPredefinies = [
-        '#FF5733', '#FFC300', '#36DBCA', '#A569BD', '#3498DB', '#F39C12', '#27AE60', '#E74C3C',
-        '#FF7675', '#FDA7DF', '#74B9FF', '#55E6C1', '#FFEAA7', '#FF6B81', '#54a0ff', '#C4E538',
-        '#00b894', '#6c5ce7', '#0984e3', '#6D214F', '#EB4D4B', '#6F1E51', '#B33771', '#D980FA',
-        '#5B2C6F', '#341f97', '#0A3D62', '#00A8FF', '#185ADB', '#3B3B98', '#6D214F',
-        '#FF4D00', '#FFA400', '#5CCD9F', '#82589F', '#1287A8', '#D8B26D', '#229954', '#C70039',
-        '#FF6E6E', '#FFB3BA', '#8ED1FC', '#64C2C2', '#FFD56D', '#FFA07A', '#6F1E51', '#1E8449',
-        '#006266', '#5758BB', '#6F1E51', '#9A031E', '#8B78E6', '#2C3A47', '#8B78E6', '#341f97',
-        '#006266', '#F79F1F', '#FFC312', '#D2FA5A', '#D63031', '#12CBC4', '#FDA7DF', '#ED4C67'
-    ];
-    
-    var couleur = couleursPredefinies[Math.floor(Math.random() * couleursPredefinies.length)];
-    return couleur;
+	var couleursPredefinies = [
+		'#FF5733', '#FFC300', '#36DBCA', '#A569BD', '#3498DB', '#F39C12', '#27AE60', '#E74C3C',
+		'#FF7675', '#FDA7DF', '#74B9FF', '#55E6C1', '#FFEAA7', '#FF6B81', '#54a0ff', '#C4E538',
+		'#00b894', '#6c5ce7', '#0984e3', '#6D214F', '#EB4D4B', '#6F1E51', '#B33771', '#D980FA',
+		'#5B2C6F', '#341f97', '#0A3D62', '#00A8FF', '#185ADB', '#3B3B98', '#6D214F',
+		'#FF4D00', '#FFA400', '#5CCD9F', '#82589F', '#1287A8', '#D8B26D', '#229954', '#C70039',
+		'#FF6E6E', '#FFB3BA', '#8ED1FC', '#64C2C2', '#FFD56D', '#FFA07A', '#6F1E51', '#1E8449',
+		'#006266', '#5758BB', '#6F1E51', '#9A031E', '#8B78E6', '#2C3A47', '#8B78E6', '#341f97',
+		'#006266', '#F79F1F', '#FFC312', '#D2FA5A', '#D63031', '#12CBC4', '#FDA7DF', '#ED4C67'
+	];
+
+	var couleur = couleursPredefinies[Math.floor(Math.random() * couleursPredefinies.length)];
+	return couleur;
 }
 
-// Initialisation de l'objet pour stocker les couleurs des artistes
 var couleursArtistes = {};
 
 $(document).ready(function() {
-    // Chargement des morceaux depuis le fichier JSON
-    $.getJSON('tracks.json', function(data) {
-        var tracks = data; // Stocke les morceaux dans une variable locale
 
-        // Fonction pour peupler la liste déroulante des artistes avec Select2
-        function peuplerArtistes() {
-            var artistes = [];
-            var extras = ['Full Album', 'Music Video', 'Other']; // Les options supplémentaires
-            $('#artistSelect').append('<optgroup label="Non-track types"></optgroup>'); // Création de la section pour les extras
-            extras.forEach(function(extra) {
-                $('#artistSelect optgroup[label="Non-track types"]').append(`<option value="${extra}">${extra}</option>`);
-            });
-            $('#artistSelect').append('<optgroup label="Artistes"></optgroup>'); // Création de la section pour les artistes
-            tracks.forEach(function(track) {
-                if (!artistes.includes(track.artist)) {
-                    artistes.push(track.artist);
-                    couleursArtistes[track.artist] = couleurAleatoire(); // Attribution de couleur aléatoire à chaque artiste
-                }
-            });
-            artistes.sort();
-            artistes.forEach(function(artiste) {
-                $('#artistSelect optgroup[label="Artistes"]').append(`<option value="${artiste}">${artiste}</option>`);
-            });
+	$.getJSON('tracks.json', function(data) {
+		var tracks = data;
 
-            // Initialise Select2 sur l'élément de sélection des artistes
-            $('#artistSelect').select2({
-                placeholder: 'Filter by artist(s) or type',
-                allowClear: true,
-            });
-        }
+		function peuplerArtistes() {
+			var artistes = [];
+			var extras = ['Full Album', 'Music Video', 'Other'];
+			$('#artistSelect').append('<optgroup label="Non-track types"></optgroup>');
+			extras.forEach(function(extra) {
+				$('#artistSelect optgroup[label="Non-track types"]').append(`<option value="${extra}">${extra}</option>`);
+			});
+			$('#artistSelect').append('<optgroup label="Artistes"></optgroup>');
+			tracks.forEach(function(track) {
+				if (!artistes.includes(track.artist)) {
+					artistes.push(track.artist);
+					couleursArtistes[track.artist] = couleurAleatoire();
+				}
+			});
+			artistes.sort();
+			artistes.forEach(function(artiste) {
+				$('#artistSelect optgroup[label="Artistes"]').append(`<option value="${artiste}">${artiste}</option>`);
+			});
 
-        // Fonction pour afficher les cartes
-        function afficherCartes(morceauxAffiches) {
-            $('#morceaux-container').empty();
-            morceauxAffiches.forEach(function(track) {
-                var extraBadge = '';
-                if (track.extra === 'Music Video') {
-                    extraBadge = '<span class="badge badge-info">Music Video</span>';
-                } else if (track.extra === 'Full Album') {
-                    extraBadge = '<span class="badge badge-warning">Full Album</span>';
-                } else if (track.extra === 'Other') {
-                    extraBadge = '<span class="badge badge-danger">Other</span>';
-                }
-                var carte = `
+
+			$('#artistSelect').select2({
+				placeholder: 'Filter by artist(s) or type',
+				allowClear: true,
+			});
+		}
+
+		function afficherCartes(morceauxAffiches) {
+			$('#morceaux-container').empty();
+			morceauxAffiches.forEach(function(track) {
+				var extraBadge = '';
+				if (track.extra === 'Music Video') {
+					extraBadge = '<span style="background-color:##5DB2E3" class="badge badge-info">Music Video</span>';
+				} else if (track.extra === 'Full Album') {
+					extraBadge = '<span style="background-color:#FFA142" class="badge badge-info">Full Album</span>';
+				} else if (track.extra === 'Other') {
+					extraBadge = '<span style="background-color:#FA6150" class="badge badge-danger">Other</span>';
+				}
+				var carte = `
                     <div class="col-md-4 mb-4">
                         <div class="card">
                             <img class="card-img-top" src="${track.cover}" alt="Cover image">
@@ -82,96 +78,88 @@ $(document).ready(function() {
                         </div>
                     </div>
                 `;
-                $('#morceaux-container').append(carte);
-            });
-        }
+				$('#morceaux-container').append(carte);
+			});
+		}
 
-        // Chargement initial : peupler la liste des artistes et afficher toutes les cartes
-        peuplerArtistes();
-        afficherCartes(tracks);
+		peuplerArtistes();
+		afficherCartes(tracks);
 
-        function filtrerMorceaux() {
-            var recherche = $('#searchInput').val().trim().toLowerCase();
-            var selection = $('#artistSelect').val();
-            var SArtistes = [];
-            var SExtras = [];
-        
-            if (selection !== null && selection.length > 0) {
-                selection.forEach(function(item) {
-                    if (!['Full Album', 'Music Video', 'Other'].includes(item)) {
-                        SArtistes.push(item);
-                    } else {
-                        SExtras.push(item);
-                    }
-                });
-            }
-        
-            var morceauxFiltres = tracks.filter(function(track) {
-                var correspondanceRecherche = track.artist.toLowerCase().includes(recherche) ||
-                                              track.track.toLowerCase().includes(recherche) ||
-                                              track.album.toLowerCase().includes(recherche) ||
-                                              track.date.toLowerCase().includes(recherche);
-                
-                var correspondanceArtiste = false;
-                var correspondanceExtra = false;
-        
-                if (SArtistes.length > 0) {
-                    if (SArtistes.includes(track.artist)) {
-                        correspondanceArtiste = true;
-                    }
-                } else {
-                    correspondanceArtiste = true; // Si aucun artiste sélectionné, correspondanceArtiste est toujours vrai
-                }
-        
-                if (SExtras.length > 0) {
-                    if (SExtras.includes(track.extra)) {
-                        correspondanceExtra = true;
-                    }
-                } else {
-                    // Si aucun extra n'est sélectionné, correspondanceExtra est toujours vrai
-                    correspondanceExtra = true;
-                }
-        
-                console.log("Track Artist :", track.artist);
-                console.log("Track Album :", track.album);
-                console.log("Track Extra :", track.extra);
-                console.log("S Artistes :", SArtistes);
-                console.log("S Extras :", SExtras);
-                console.log("C Artiste :", correspondanceArtiste);
-                console.log("C Extra :", correspondanceExtra);
-        
-                return correspondanceRecherche && correspondanceArtiste && correspondanceExtra;
-            });
-        
-            // Affichage des cartes filtrées
-            afficherCartes(morceauxFiltres);
-        }
-        
-        
+		function filtrerMorceaux() {
+			var recherche = $('#searchInput').val().trim().toLowerCase();
+			var selection = $('#artistSelect').val();
+			var SArtistes = [];
+			var SExtras = [];
 
-        
-        
-        
-        
-        
-        
+			if (selection !== null && selection.length > 0) {
+				selection.forEach(function(item) {
+					if (!['Full Album', 'Music Video', 'Other'].includes(item)) {
+						SArtistes.push(item);
+					} else {
+						SExtras.push(item);
+					}
+				});
+			}
 
-        $('#searchInput').on('input', filtrerMorceaux);
-        $('#artistSelect').on('change', filtrerMorceaux);
-    });
+			var morceauxFiltres = tracks.filter(function(track) {
+				var correspondanceRecherche = track.artist.toLowerCase().includes(recherche) ||
+					track.track.toLowerCase().includes(recherche) ||
+					track.album.toLowerCase().includes(recherche) ||
+					track.date.toLowerCase().includes(recherche);
+
+				var correspondanceArtiste = false;
+				var correspondanceExtra = false;
+
+				if (SArtistes.length > 0) {
+					if (SArtistes.includes(track.artist)) {
+						correspondanceArtiste = true;
+					}
+				} else {
+					correspondanceArtiste = true;
+				}
+
+				if (SExtras.length > 0) {
+					if (SExtras.includes(track.extra)) {
+						correspondanceExtra = true;
+					}
+				} else {
+
+					correspondanceExtra = true;
+				}
+
+				console.log("Track Artist :", track.artist);
+				console.log("Track Album :", track.album);
+				console.log("Track Extra :", track.extra);
+				console.log("S Artistes :", SArtistes);
+				console.log("S Extras :", SExtras);
+				console.log("C Artiste :", correspondanceArtiste);
+				console.log("C Extra :", correspondanceExtra);
+
+				return correspondanceRecherche && correspondanceArtiste && correspondanceExtra;
+			});
+
+
+			afficherCartes(morceauxFiltres);
+		}
+
+		$('#searchInput').on('input', filtrerMorceaux);
+		$('#artistSelect').on('change', filtrerMorceaux);
+	});
 });
 
-window.onscroll = function() { myFunction() };
+window.onscroll = function() {
+	myFunction()
+};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
 function myFunction() {
-    if (window.pageYOffset >= sticky) {
-        navbar.classList.add("sticky");
-        document.body.style.paddingTop = (navbar.offsetHeight -30) + 'px'; // Ajoute la hauteur de la navbar au padding top du body
-    } else {
-        navbar.classList.remove("sticky");
-        document.body.style.paddingTop = 0; // Réinitialise le padding top du body
-    }
+	if (window.pageYOffset >= sticky) {
+		navbar.classList.add("sticky");
+		document.body.style.paddingTop = (navbar.offsetHeight - 30) + 'px';
+	} else {
+		navbar.classList.remove("sticky");
+		document.body.style.paddingTop = 0;
+	}
 }
